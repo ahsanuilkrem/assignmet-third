@@ -13,6 +13,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- fontawesome -->
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <!--  -->
     <script>
         tailwind.config = {
@@ -159,7 +160,7 @@
        <!-- end -->
         <!--stats cont start -->
         <section >
-         <div class="container mx-auto my-10">
+         <div class="container mx-auto my-10 ">
           <div class="stats stats-vertical lg:stats-horizontal shadow text-center md:grid-cols-2 lg:flex ">
             <div class="stat">
               <div class="stat-title"><i class="fa-regular fa-message"></i></div>
@@ -248,11 +249,11 @@
       <section class="bg-white py-24">
         <div class="container mx-auto ">
           <!--  -->
-          <div class=" text-center">
+          <div class=" text-center space-y-5">
             <button class="btn btn-md rounded-full bg-lime-200 border-hidden text-base font-bold text-home text-center">
               <i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
               <h2 class="text-4xl font-bold text-blacke">Our Latest Portfolio</h2>
-              <p class="text-base font-medium text-home leading-6 mb-7">The barn house captivates with its blend of rustic charm and modern sophistication,<br> 
+              <p class="text-base font-medium text-home leading-6 pb-6">The barn house captivates with its blend of rustic charm and modern sophistication,<br> 
                 featuring weathered wood, sleek metal accents.</p>
           </div>
           <!--  -->
@@ -315,6 +316,40 @@
           </div>
           </div>
       </section>
+        <!--  Let’s Discuss Next Project -->
+      <section class="">
+        <div class="container mx-auto junior-revis border-4 border-white">
+          <div class=" py-24 ">
+            <div class="text-center space-y-5">
+              <button class="btn btn-sm rounded-full  bg-lime-200 border-hidden text-base font-bold text-home ">
+                <i class="fa-solid fa-arrow-right"></i>Let’s Connect</button>
+            
+              <h1 class="text-5xl font-bold text-blacke">Let’s Discuss Next Project</h1>
+              <p class="py-4 text-base font-medium text-home">
+                The barn house captivates with its blend of rustic charm and modern sophistication, 
+                <br> featuring weathered wood, sleek metal accents.
+              </p>
+           
+            <div class="grid grid-cols-1 justify-center justify-items-center">
+              <form class="w-2/3">
+                <div class="form-control grid grid-clos-1 lg:grid-cols-2 md:grid-cols-2 gap-7 ">
+                  <input type="text" placeholder="First Name*" class="input  rounded-full lg:col-span-1" required />
+                  <input type="text" placeholder="last Name*" class="input  rounded-full lg:col-span-1" required />
+                  <input type="email" placeholder="Email Number*" class="input  rounded-full lg:col-span-1" required />
+                  <input type="number" placeholder="phone Number*" class="input  rounded-full lg:col-span-1" required />
+                  <textarea rows="6" class="textarea  rounded-lg lg:col-span-2 md:col-span-2" placeholder="Write your message here"></textarea>
+                  <button class="btn bg-clifford rounded-full lg:col-span-2 md:col-span-2 text-xl font-bold ">Send Mail
+                    <spam class="bg-black btn btn-circle btn-sm text-white -rotate-45">
+                    <i class="fa-solid fa-arrow-right"></i></spam> </button>
+
+                </div>
+               </form>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
    
 </body>
